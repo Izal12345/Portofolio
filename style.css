@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: #cccccc;
+    color: #000000;
+}
+
+
+header {
+    background-color: #06005e; 
+    padding: 20px 0; 
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    border: none;
+    box-shadow: none;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold; 
+}
+nav ul li a:hover {
+    color: #000000;
+}
+
+
+#home {
+        background-image: url('sung-jinwoo-dope-5120x2880-20241.jpg'); 
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed; 
+        height: 60vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .hero-container h1, .hero-container p {
+        font-size: 2rem; 
+        font-weight: bold;
+    
+}
+
+.hero-container h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-container p {
+    font-size: 1.2em;
+}
+
+
+#about {
+    background: #cccccc;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+
+#projects {
+    background: #cccccc;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+
+#contact {
+    background: #06005e;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-links li a:hover {
+    color: #ddd;
+}
+.sigmar-regular {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Mengatur font untuk seluruh halaman */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Mengatur font khusus untuk h1 di dalam section #home */
+  #home h1 {
+    font-family: 'sigmar', sans-serif;
+    font-weight: 700;  /* Menambahkan ketebalan font */
+    font-size: 4.5em; /* Menyesuaikan ukuran font */
+    color: #ffffff; /* Menambahkan warna teks */
+  }
+  
+  #home p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+  }
+  
